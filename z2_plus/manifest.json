@@ -1,0 +1,33 @@
+{
+	"status": "ok",
+	"date": "2016-11-27",
+	"commands": "",
+	"gpg": false,
+	"devices":
+		[
+			{"files":
+				[
+					{
+						"url": "https://raw.githubusercontent.com/MR-Z2plus/build/master/multirom-20161127-v33e-UNOFFICIAL-z2_plus.zip",
+						"version": "33e",
+						"type": "multirom",
+						"size": 6802478,
+						"md5": "7ffac5c3468478c92f7404c0089c0993"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/MR-Z2plus/build/master/TWRP_multirom_z2_plus_20161127-01.img",
+						"version": "mrom20161127",
+						"type": "recovery",
+						"size": 47652864,
+						"md5": "7fa2eb20897b33f609823e292595a20d"
+					}
+				],
+			"name": "z2_plus",
+			"ubuntu_touch":
+				{
+					"req_multirom": "33e",
+					"req_recovery": "mrom20161127"
+				}
+			}
+		]
+}
